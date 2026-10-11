@@ -169,7 +169,7 @@ form.f{display:flex;flex-direction:column;gap:16px}
 /* Textseiten (Impressum etc.) */
 .legal{max-width:760px;margin:0 auto;padding:72px 24px 24px;display:flex;flex-direction:column;gap:32px;overflow-wrap:anywhere}
 .legal section>p+p{margin-top:12px}
-.legal h1{font-size:clamp(40px,6vw,64px)}
+.legal h1{font-size:clamp(16px,5vw,40px);overflow-wrap:normal;word-break:normal}
 .legal h2{font-size:24px;letter-spacing:-0.01em;line-height:1.2;margin-bottom:6px}
 .legal .lead{color:var(--g2)}
 .legal ul{margin:6px 0 0;padding-left:22px}
