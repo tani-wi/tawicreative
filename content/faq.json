@@ -1,0 +1,24 @@
+{
+  "fragen": [
+    {
+      "frage": "Wie lange dauert es bis zu meinem Stück?",
+      "antwort": "Weil ich fast alles erst nach deiner Bestellung fertige, rechne mit ca. [X–X] Werktagen ab Bestätigung. Den genauen Termin nenne ich dir bei der Abstimmung.",
+      "sichtbar": true
+    },
+    {
+      "frage": "Welche Dateien kann ich dir schicken?",
+      "antwort": "Für den 3D-Druck am besten STL-Dateien, für Laser und Folienplott Vektordateien (z. B. SVG oder PDF). Für die erste Anfrage reicht auch eine Skizze oder ein Foto.",
+      "sichtbar": true
+    },
+    {
+      "frage": "Wie bezahle ich?",
+      "antwort": "[Zahlungsarten, z. B. Barzahlung bei Abholung oder Überweisung]",
+      "sichtbar": true
+    },
+    {
+      "frage": "Kann ich ein Stück zurückgeben?",
+      "antwort": "Bei Bestellungen im Fernabsatz gilt dein gesetzliches Widerrufsrecht – auch wenn ein Stück erst nach der Bestellung gefertigt wurde. Ausgenommen sind nur Stücke, die individuell nach deinen Vorgaben angefertigt werden. Alles Weitere steht unter „Versand & Widerruf“.",
+      "sichtbar": true
+    }
+  ]
+}

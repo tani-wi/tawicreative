@@ -1,0 +1,46 @@
+{
+  "titel": "Frisch aus der Werkstatt",
+  "intro": "Die meisten Stücke fertige ich erst, wenn du sie bestellst – so entsteht nichts auf Vorrat. Zu jeder Jahreszeit kommen neue Ideen dazu.",
+  "produkte": [
+    {
+      "name": "[Produktname]",
+      "details": "[Material · Größe · Farbe]",
+      "sicherheitshinweis": "[falls nötig, z. B. Kleinteile]",
+      "preis": "ab [XX] €",
+      "abzeichen": "Auf Bestellung",
+      "bild": "",
+      "bild_alt": "",
+      "sichtbar": true
+    },
+    {
+      "name": "[Produktname]",
+      "details": "[Material · Größe · Farbe]",
+      "sicherheitshinweis": "[falls nötig, z. B. Kleinteile]",
+      "preis": "ab [XX] €",
+      "abzeichen": "Neu",
+      "bild": "",
+      "bild_alt": "",
+      "sichtbar": true
+    },
+    {
+      "name": "[Produktname]",
+      "details": "[Material · Größe · Farbe]",
+      "sicherheitshinweis": "[falls nötig, z. B. Kleinteile]",
+      "preis": "ab [XX] €",
+      "abzeichen": "Auf Bestellung",
+      "bild": "",
+      "bild_alt": "",
+      "sichtbar": true
+    },
+    {
+      "name": "[Produktname]",
+      "details": "[Material · Größe · Farbe]",
+      "sicherheitshinweis": "[falls nötig, z. B. Kleinteile]",
+      "preis": "ab [XX] €",
+      "abzeichen": "Auf Bestellung",
+      "bild": "",
+      "bild_alt": "",
+      "sichtbar": true
+    }
+  ]
+}
