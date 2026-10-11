@@ -186,7 +186,7 @@
           var lines = [];
           data.forEach(function (v, k) { if (k !== '_gotcha' && typeof v === 'string' && v) lines.push(k + ': ' + v); });
           window.location.href = 'mailto:' + (site.email || '') + '?subject=' + encodeURIComponent(betreff) + '&body=' + encodeURIComponent(lines.join('\n'));
-          say('Dein E-Mail-Programm öffnet sich. Bitte sende die vorbereitete Nachricht dort ab.');
+          say('Dein E-Mail-Programm öffnet sich. Hänge dort gerne Bilder oder Dateien an und sende die Nachricht ab.');
         }
       });
     });
