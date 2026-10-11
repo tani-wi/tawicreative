@@ -43,6 +43,7 @@ p{margin:0}
 /* Knöpfe */
 .btn{display:inline-block;font-family:var(--body);font-weight:700;font-size:16px;line-height:1.2;text-align:center;text-decoration:none;padding:16px 28px;border-radius:99px;border:2px solid transparent;cursor:pointer;background:var(--pink);color:var(--white)}
 .btn:hover{background:var(--black);color:var(--white)}
+.dark .btn:not(.btn--line):hover,.contact .btn:not(.btn--line):hover,.cta-bar .btn:not(.btn--line):hover{background:var(--white);color:var(--black)}
 .btn--dark{background:var(--black);color:var(--white)}
 .btn--dark:hover{background:var(--pink)}
 .btn--line{background:transparent;color:var(--white);border-color:var(--white)}
