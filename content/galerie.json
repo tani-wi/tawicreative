@@ -1,13 +1,42 @@
 {
   "bilder": [
-    { "bild": "", "beschreibung": "", "kategorie": "3D-Druck", "sichtbar": true },
-    { "bild": "", "beschreibung": "", "kategorie": "Lasercut & Holz", "sichtbar": true },
-    { "bild": "", "beschreibung": "", "kategorie": "Saison", "sichtbar": true },
-    { "bild": "", "beschreibung": "", "kategorie": "Folienplott", "sichtbar": true },
-    { "bild": "", "beschreibung": "", "kategorie": "Werkstatt", "sichtbar": true },
-    { "bild": "", "beschreibung": "", "kategorie": "3D-Druck", "sichtbar": true },
-    { "bild": "", "beschreibung": "", "kategorie": "Lasercut & Holz", "sichtbar": true },
-    { "bild": "", "beschreibung": "", "kategorie": "Saison", "sichtbar": true },
-    { "bild": "", "beschreibung": "", "kategorie": "Folienplott", "sichtbar": true }
+    {
+      "bild": "/assets/images/grun-beige-minimalistisch-collage-matcha-instagram-post.png",
+      "kategorie": "Lasercut & Holz",
+      "sichtbar": true
+    },
+    {
+      "bild": "/assets/images/350308f8-57cb-4a07-b0d5-837f4af3d37d-1all992.jpg",
+      "kategorie": "3D Druck",
+      "sichtbar": true
+    },
+    {
+      "kategorie": "Saison",
+      "sichtbar": true
+    },
+    {
+      "kategorie": "Folienplott",
+      "sichtbar": true
+    },
+    {
+      "kategorie": "Werkstatt",
+      "sichtbar": true
+    },
+    {
+      "kategorie": "3D-Druck",
+      "sichtbar": true
+    },
+    {
+      "kategorie": "Lasercut & Holz",
+      "sichtbar": true
+    },
+    {
+      "kategorie": "Saison",
+      "sichtbar": true
+    },
+    {
+      "kategorie": "Folienplott",
+      "sichtbar": true
+    }
   ]
 }
