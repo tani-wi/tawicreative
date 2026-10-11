@@ -53,6 +53,9 @@
       "beschreibung": "3d Drucker",
       "kategorie": "Werkstatt",
       "sichtbar": true
+    },
+    {
+      "sichtbar": false
     }
   ]
 }
