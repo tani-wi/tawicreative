@@ -55,7 +55,9 @@
       "sichtbar": true
     },
     {
-      "sichtbar": false
+      "bild": "/assets/images/design-ohne-titel-12.png",
+      "kategorie": "3D-Druck",
+      "sichtbar": true
     }
   ]
 }
