@@ -229,6 +229,14 @@
       wireForms(site);
       markTodos(document.body);
       document.documentElement.classList.add('ready');
+      /* Die Inhalte werden erst per Skript eingefügt: Sprungmarken (#kontakt) danach neu anspringen. */
+      var id = decodeURIComponent((location.hash || '').slice(1)), target = id ? document.getElementById(id) : null;
+      if (target) {
+        var root = document.documentElement;
+        root.style.scrollBehavior = 'auto';
+        target.scrollIntoView();
+        root.style.scrollBehavior = '';
+      }
     });
   });
 })();
