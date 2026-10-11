@@ -28,6 +28,9 @@ content:
           - name: name
             label: Produktname
             type: string
+          - name: beschreibung
+            label: Kurzbeschreibung (z. B. Mit LED-Licht kombinierbar)
+            type: text
           - name: details
             label: Material · Größe · Farbe
             type: string
