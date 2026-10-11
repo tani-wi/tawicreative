@@ -2,12 +2,12 @@
   "fragen": [
     {
       "frage": "Wie lange dauert es bis zu meinem Stück?",
-      "antwort": "Weil ich fast alles erst nach deiner Bestellung fertige, rechne mit ca. [X–X] Werktagen ab Bestätigung. Den genauen Termin nenne ich dir bei der Abstimmung.",
+      "antwort": "Weil ich fast alles erst nach deiner Bestellung fertige, rechne mit ca. 5-10 Werktagen ab Bestätigung. Den genauen Termin nenne ich dir bei der Abstimmung.",
       "sichtbar": true
     },
     {
       "frage": "Welche Dateien kann ich dir schicken?",
-      "antwort": "Für den 3D-Druck am besten STL-Dateien, für Laser und Folienplott Vektordateien (z. B. SVG oder PDF). Für die erste Anfrage reicht auch eine Skizze oder ein Foto.",
+      "antwort": "Für den 3D-Druck am besten STL-Dateien oder 3mF, für Laser und Folienplott Vektordateien (z. B. SVG oder PDF) oder PNG. Für die erste Anfrage reicht auch eine Skizze oder ein Foto.",
       "sichtbar": true
     },
     {
