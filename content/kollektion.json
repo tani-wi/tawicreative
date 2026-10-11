@@ -20,11 +20,11 @@
       "sichtbar": true
     },
     {
-      "name": "[Produktname]",
-      "details": "[Material · Größe · Farbe]",
-      "sicherheitshinweis": "[falls nötig, z. B. Kleinteile]",
-      "preis": "ab [XX] €",
+      "name": "Regen-Gans",
+      "details": "PETG · h=47cm b=26cm · ",
+      "preis": "65 €",
       "abzeichen": "Auf Bestellung",
+      "bild": "/assets/images/design-ohne-titel-7.png",
       "sichtbar": true
     },
     {
@@ -33,7 +33,7 @@
       "sicherheitshinweis": "[falls nötig, z. B. Kleinteile]",
       "preis": "ab [XX] €",
       "abzeichen": "Auf Bestellung",
-      "sichtbar": true
+      "sichtbar": false
     }
   ]
 }
