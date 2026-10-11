@@ -80,6 +80,7 @@
       var card = el('article', { 'class': 'card' }, [
         slot,
         el('h3', { text: p.name || '' }),
+        p.beschreibung ? el('p', { 'class': 'b', text: p.beschreibung }) : null,
         p.details ? el('p', { 'class': 'd', text: p.details }) : null,
         p.sicherheitshinweis ? el('p', { 'class': 's', text: 'Sicherheitshinweis: ' + p.sicherheitshinweis }) : null,
         p.preis ? el('p', { 'class': 'p', text: p.preis }) : null,
