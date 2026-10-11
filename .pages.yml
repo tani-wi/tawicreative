@@ -1,0 +1,196 @@
+# Einstellungen für Pages CMS (https://pagescms.org) – so bearbeitest du die Website am Handy.
+# Fotos landen im Ordner assets/images und werden automatisch richtig eingetragen.
+
+media:
+  input: assets/images
+  output: /assets/images
+  extensions: [jpg, jpeg, png, webp]
+  rename: safe
+
+content:
+  - name: kollektion
+    label: Kollektion (Produkte)
+    type: file
+    path: content/kollektion.json
+    format: json
+    fields:
+      - name: titel
+        label: Überschrift
+        type: string
+      - name: intro
+        label: Einleitungstext
+        type: text
+      - name: produkte
+        label: Produkte
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Produktname
+            type: string
+          - name: details
+            label: Material · Größe · Farbe
+            type: string
+          - name: sicherheitshinweis
+            label: Sicherheitshinweis (leer lassen, wenn keiner nötig)
+            type: string
+          - name: preis
+            label: Preis (z. B. ab 12 €)
+            type: string
+          - name: abzeichen
+            label: Abzeichen (z. B. Neu, Auf Bestellung)
+            type: string
+          - name: bild
+            label: Foto
+            type: image
+          - name: bild_alt
+            label: Bildbeschreibung (kurz, für Sehbehinderte)
+            type: string
+          - name: sichtbar
+            label: Auf der Website zeigen
+            type: boolean
+
+  - name: galerie
+    label: Galerie
+    type: file
+    path: content/galerie.json
+    format: json
+    fields:
+      - name: bilder
+        label: Bilder
+        type: object
+        list: true
+        fields:
+          - name: bild
+            label: Foto
+            type: image
+          - name: beschreibung
+            label: Beschreibung
+            type: string
+          - name: kategorie
+            label: Kategorie (z. B. 3D-Druck, Lasercut & Holz, Saison, Folienplott)
+            type: string
+          - name: sichtbar
+            label: Auf der Website zeigen
+            type: boolean
+
+  - name: faq
+    label: Häufige Fragen
+    type: file
+    path: content/faq.json
+    format: json
+    fields:
+      - name: fragen
+        label: Fragen
+        type: object
+        list: true
+        fields:
+          - name: frage
+            label: Frage
+            type: string
+          - name: antwort
+            label: Antwort
+            type: text
+          - name: sichtbar
+            label: Auf der Website zeigen
+            type: boolean
+
+  - name: site
+    label: Allgemein & Kontakt
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: saison
+        label: Saison (z. B. Winter 2026)
+        type: string
+      - name: saison_abzeichen
+        label: Text im runden Aufkleber (z. B. NEU)
+        type: string
+      - name: hero_bild
+        label: Hauptfoto oben auf der Startseite
+        type: image
+      - name: hero_bild2
+        label: Kleines Detailfoto oben
+        type: image
+      - name: ueber_bild
+        label: Foto bei „Über mich“
+        type: image
+      - name: gewaehrleistung_bild
+        label: Offizieller EU-Gewährleistungshinweis (Bild mit QR-Code)
+        type: image
+      - name: lieferzeit
+        label: Lieferzeit (z. B. 5–10 Werktage)
+        type: string
+      - name: zahlungsarten
+        label: Zahlungsarten
+        type: text
+      - name: versandkosten
+        label: Versandkosten
+        type: string
+      - name: zustellkosten
+        label: Zustellkosten Gleisdorf & Graz
+        type: string
+      - name: abholort
+        label: Ort der Abholung
+        type: string
+      - name: versanddienst
+        label: Versanddienst
+        type: string
+      - name: widerruf_ruecksendung
+        label: Wer zahlt die Rücksendung (du / ich)
+        type: string
+      - name: kleinunternehmer_hinweis
+        label: Hinweis zur Umsatzsteuer (leer lassen, wenn nicht Kleinunternehmerin)
+        type: text
+      - name: firmenname
+        label: Firmenname
+        type: string
+      - name: inhaberin
+        label: Inhaberin
+        type: string
+      - name: strasse
+        label: Straße und Hausnummer
+        type: string
+      - name: plz_ort
+        label: PLZ und Ort
+        type: string
+      - name: email
+        label: E-Mail-Adresse
+        type: string
+      - name: telefon
+        label: Telefonnummer
+        type: string
+      - name: whatsapp
+        label: WhatsApp-Nummer ohne + und ohne Leerzeichen (z. B. 4367761004448)
+        type: string
+      - name: facebook
+        label: Facebook-Link
+        type: string
+      - name: gewerbewortlaut
+        label: Gewerbewortlaut (Impressum)
+        type: string
+      - name: gewerbebehoerde
+        label: Gewerbebehörde (Impressum)
+        type: string
+      - name: fachgruppe
+        label: Fachgruppe der WKO (Impressum)
+        type: string
+      - name: uid
+        label: UID-Nummer (leer lassen, wenn keine)
+        type: string
+      - name: firmenbuch
+        label: Firmenbuchnummer (leer lassen, wenn keine)
+        type: string
+      - name: unternehmensgegenstand
+        label: Unternehmensgegenstand
+        type: text
+      - name: streitbeilegung
+        label: Verbraucherschlichtungsstelle
+        type: string
+      - name: hosting
+        label: Hosting-Anbieter (Datenschutz)
+        type: string
+      - name: formular_id
+        label: Formspree-Formular-ID (optional, leer = Nachricht öffnet das E-Mail-Programm)
+        type: string
