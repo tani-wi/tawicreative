@@ -60,7 +60,10 @@
       "sichtbar": true
     },
     {
-      "sichtbar": false
+      "bild": "/assets/images/design-ohne-titel-15.png",
+      "beschreibung": "Regengans 3D gedruckt",
+      "kategorie": "3D-Druck",
+      "sichtbar": true
     }
   ]
 }
