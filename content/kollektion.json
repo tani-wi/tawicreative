@@ -29,12 +29,15 @@
       "sichtbar": true
     },
     {
-      "name": "[Produktname]",
-      "details": "[Material · Größe · Farbe]",
-      "sicherheitshinweis": "[falls nötig, z. B. Kleinteile]",
-      "preis": "ab [XX] €",
+      "name": "Weihnachts-Pinguin Schollen-Eddi",
+      "beschreibung": "57 cm groß, winkt deine Gäste herein",
+      "details": "PETG · H ca. 57cm · Schwarz, Weiß, Rot, Orange, Blau",
+      "sicherheitshinweis": "Dekoartikel, kein Spielzeug. Nicht neben Heizung, Ofen oder Kamin stellen.",
+      "preis": "140,90 €",
       "abzeichen": "Auf Bestellung",
-      "sichtbar": false
+      "bild": "/assets/images/15074.jpg",
+      "bild_alt": "3D-gedruckter Pinguin mit roter Weihnachtsmütze und Schal, winkend auf einer weiß-blauen Eisscholle",
+      "sichtbar": true
     }
   ]
 }
