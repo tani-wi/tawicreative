@@ -3,6 +3,17 @@
   "intro": "Die meisten Stücke fertige ich erst, wenn du sie bestellst – so entsteht nichts auf Vorrat. Zu jeder Jahreszeit kommen neue Ideen dazu.",
   "produkte": [
     {
+      "name": "Weihnachts-Pinguin Schollen-Eddi",
+      "beschreibung": "57 cm groß, winkt deine Gäste herein",
+      "details": "PETG · H ca. 57cm · Schwarz, Weiß, Rot, Orange, Blau",
+      "sicherheitshinweis": "Dekoartikel, kein Spielzeug. Nicht neben Heizung, Ofen oder Kamin stellen.",
+      "preis": "140,90 €",
+      "abzeichen": "Auf Bestellung",
+      "bild": "/assets/images/15074.jpg",
+      "bild_alt": "3D-gedruckter Pinguin mit roter Weihnachtsmütze und Schal, winkend auf einer weiß-blauen Eisscholle",
+      "sichtbar": true
+    },
+    {
       "name": "Dog Lover Aufsteller",
       "details": "PLA· 14,5x19,3x2,3cm (hxbxt)",
       "preis": "9,90 €",
@@ -26,17 +37,6 @@
       "preis": "65 €",
       "abzeichen": "Auf Bestellung",
       "bild": "/assets/images/design-ohne-titel-7.png",
-      "sichtbar": true
-    },
-    {
-      "name": "Weihnachts-Pinguin Schollen-Eddi",
-      "beschreibung": "57 cm groß, winkt deine Gäste herein",
-      "details": "PETG · H ca. 57cm · Schwarz, Weiß, Rot, Orange, Blau",
-      "sicherheitshinweis": "Dekoartikel, kein Spielzeug. Nicht neben Heizung, Ofen oder Kamin stellen.",
-      "preis": "140,90 €",
-      "abzeichen": "Auf Bestellung",
-      "bild": "/assets/images/15074.jpg",
-      "bild_alt": "3D-gedruckter Pinguin mit roter Weihnachtsmütze und Schal, winkend auf einer weiß-blauen Eisscholle",
       "sichtbar": true
     }
   ]
